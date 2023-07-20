@@ -2,7 +2,7 @@ const fs = require("fs/promises");
 const fileName = "myfile.txt";
 const fileContent = "Newton School";
 const writeFile = async (fileName, fileContent) => {
-  // write code here
+  fs.createFile(writeFile)// write code here
   // dont change function name
 };
 
